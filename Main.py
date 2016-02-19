@@ -62,6 +62,8 @@ class Player(object):
         return ["Your body disappears in a flash of light...when you return, things are not as they once were."]
     
     actions = ['look', 'logout']
+class item(object):
+    pass
 def test():
     newb1 = room("Welcome to ADVENTURE: World Trigger Edition", "Welcome to ADVENTURE: World Trigger Edition!  In this game, you will become a border agent, using triggers and fighting neighbors.  Type 'north' or 'n' to enter the newbie academy.")
     player = Player(newb1)
